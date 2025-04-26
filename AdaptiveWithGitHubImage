@@ -1,0 +1,55 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+       {
+            "type": "Image",
+            "url": "https://raw.githubusercontent.com/obeddejesus/images/main/LibertyBusiness_Logo_Color-ezgif.com-svg-to-png-converter.png",
+            "altText": "LibertyBusinessLogo",
+            "size": "Large"
+        },
+        {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "text": "Solicitud de Mobility Control Enviada"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "weight": "Bolder",
+                            "text": "@{200CE37C-AC31-48BF-924E-009D19F34B8A}",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "spacing": "None",
+                            "text": "Created @{0C58C986-9F1A-4511-8926-CF6D6527C8CE}",
+                            "isSubtle": true,
+                            "wrap": true
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "The @{F5589375-3CA4-4414-8535-9EDC87AF263E}Mobility Control request for @{E4DAC6C5-1024-47F8-B120-4FD3C2CDE49D} has been submitted on @{EB270D9A-A220-4F2E-A1F1-4383B7BC638A}. Allow 24-48 hours a confirmation to add the service to the customer on Salesforce.",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.OpenUrl",
+            "title": "Mobility Control App",
+            "url": "https://apps.powerapps.com/play/e/default-9242cfad-7d27-4710-9998-e8c4de90927e/a/e4cfa46d-bda1-40b4-859e-aba234325900?tenantId=9242cfad-7d27-4710-9998-e8c4de90927e&hint=4f8d6d79-bdf2-46cf-9be5-de7716ff7293&sourcetime=1745602474347"
+        }
+    ],
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5"
+}
